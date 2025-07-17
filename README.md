@@ -4,9 +4,9 @@ Clock counts hours, minutes, seconds
 
 1.Input Signals:
 
-#clk (1-bit Clock signal): Drives the sequential logic. Each positive edge updates time counters and triggers time/alarm logic.
+clk (1-bit Clock signal): Drives the sequential logic. Each positive edge updates time counters and triggers time/alarm logic.
 
-#reset	(1-bit	Reset signal): Asynchronous reset that initializes the clock to the loaded time and resets seconds to zero. Also clears the alarm signal.
+reset	(1-bit	Reset signal): Asynchronous reset that initializes the clock to the loaded time and resets seconds to zero. Also clears the alarm signal.
 
 #Hour_in1(2-bit	Hour Tens Digit Input): Used to load the tens place of the hour (0 to 2). For example, for hour = 23, Hour_in1 = 2.
 
